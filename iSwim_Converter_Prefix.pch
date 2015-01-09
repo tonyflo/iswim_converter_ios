@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'iSwim Converter' target in the 'iSwim Converter' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

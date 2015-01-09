@@ -1,0 +1,202 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* iSwim Converter */ = {
+		activeExec = 0;
+		executables = (
+			CF9D11A211C199640037E998 /* iSwim Converter */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 630}}";
+			sepNavSelRange = "{1168, 0}";
+			sepNavVisRange = "{325, 598}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2784, 17080}}";
+			sepNavSelRange = "{37631, 0}";
+			sepNavVisRange = "{37774, 721}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = CF9D11A211C199640037E998 /* iSwim Converter */;
+		activeSDKPreference = iphoneos3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iSwim Converter */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iSwim Converter */,
+		);
+		codeSenseManager = CF9D11B611C199750037E998 /* Code sense */;
+		executables = (
+			CF9D11A211C199640037E998 /* iSwim Converter */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 299165153;
+			PBXWorkspaceStateSaveDate = 299165153;
+		};
+		perUserProjectItems = {
+			CF7FB9E911D4E5F200D9F936 /* PlistBookmark */ = CF7FB9E911D4E5F200D9F936 /* PlistBookmark */;
+			CF9D11F511C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F511C1A07C0037E998 /* PBXTextBookmark */;
+			CF9D11F711C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F711C1A07C0037E998 /* PBXTextBookmark */;
+			CF9D11F811C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F811C1A07C0037E998 /* PBXTextBookmark */;
+			CFA71D0211C1D1C000266B67 /* PBXBookmark */ = CFA71D0211C1D1C000266B67 /* PBXBookmark */;
+			CFA71D0311C1D1C000266B67 /* PBXBookmark */ = CFA71D0311C1D1C000266B67 /* PBXBookmark */;
+			CFA71D1611C1D3B200266B67 /* PBXTextBookmark */ = CFA71D1611C1D3B200266B67 /* PBXTextBookmark */;
+			CFA71D1911C1D3B200266B67 /* PlistBookmark */ = CFA71D1911C1D3B200266B67 /* PlistBookmark */;
+		};
+		sourceControlManager = CF9D11B511C199750037E998 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CF7FB9E911D4E5F200D9F936 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CF9D11A211C199640037E998 /* iSwim Converter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "iSwim Converter";
+		sourceDirectories = (
+		);
+	};
+	CF9D11B511C199750037E998 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	CF9D11B611C199750037E998 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CF9D11F511C1A07C0037E998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */;
+		name = "iSwim_ConverterViewController.h: 42";
+		rLen = 0;
+		rLoc = 1168;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 325;
+	};
+	CF9D11F711C1A07C0037E998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */;
+		name = "iSwim_ConverterViewController.h: 42";
+		rLen = 0;
+		rLoc = 1168;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	CF9D11F811C1A07C0037E998 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
+		name = "iSwim_ConverterViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 39495;
+	};
+	CFA71D0211C1D1C000266B67 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CFA71CEC11C1D11D00266B67 /* icon.png */;
+	};
+	CFA71D0311C1D1C000266B67 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CFA71CEC11C1D11D00266B67 /* icon.png */;
+	};
+	CFA71D1611C1D3B200266B67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
+		name = "iSwim_ConverterViewController.m: 1090";
+		rLen = 0;
+		rLoc = 37631;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 37774;
+	};
+	CFA71D1911C1D3B200266B67 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}
