@@ -1083,12 +1083,19 @@
 		m++;
 	}
 	
+	NSLog(@"minute: %i", m);	
+	
 	int s = outputTimeInSeconds;
+	
+	NSLog(@"second: %i", s);
+	
 	double hh = (outputTimeInSeconds - s);
 	double h = hh * 100;
 	
-	if ( h >= 100 ) {
-		s += 60;
+	NSLog(@"hundred: %f", h);	
+	
+	if ( h >= 99.5 ) {
+		s += 1;
 		h = 0;
 	}
 	
