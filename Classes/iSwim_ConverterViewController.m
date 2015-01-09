@@ -2,13 +2,14 @@
 //  iSwim_ConverterViewController.m
 //  iSwim Converter
 //
-//  Created by Tony Florida on 6/10/10.
-//  Copyright Raddfood 2010. All rights reserved.
+//  Created by Tony Florida on 11/4/10.
+//  Copyright 2010 Raddfood. All rights reserved.
 //
 
 #import "iSwim_ConverterViewController.h"
 
 @implementation iSwim_ConverterViewController
+
 @synthesize inputTime, segmentedControl, outputcourse, gender, finalTime;
 
 
@@ -19,7 +20,7 @@
 	minute = [[NSArray alloc] initWithObjects:@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", @"12", @"13", @"14", @"15", @"16", @"17", @"18", @"19", @"20", @"21", @"22", @"23", @"24", @"25", @"26", @"27", @"28", @"29", @"30", @"31", @"32", @"33", @"34", @"35", @"36", @"37", @"38", @"39", @"40", @"41", @"42", @"43", @"44", @"45", @"46", @"47", @"48", @"49", @"50", @"51", @"52", @"53", @"54", @"55", @"56", @"57", @"58", @"59", nil ];
 	second = [[NSArray alloc] initWithObjects:@"00", @"01", @"02", @"03", @"04", @"05", @"06", @"07", @"08", @"09", @"10", @"11", @"12", @"13", @"14", @"15", @"16", @"17", @"18", @"19", @"20", @"21", @"22", @"23", @"24", @"25", @"26", @"27", @"28", @"29", @"30", @"31", @"32", @"33", @"34", @"35", @"36", @"37", @"38", @"39", @"40", @"41", @"42", @"43", @"44", @"45", @"46", @"47", @"48", @"49", @"50", @"51", @"52", @"53", @"54", @"55", @"56", @"57", @"58", @"59", nil];
 	hundred = [[NSArray alloc] initWithObjects:@"00", @"01", @"02", @"03", @"04", @"05", @"06", @"07", @"08", @"09", @"10", @"11", @"12", @"13", @"14", @"15", @"16", @"17", @"18", @"19", @"20", @"21", @"22", @"23", @"24", @"25", @"26", @"27", @"28", @"29", @"30", @"31", @"32", @"33", @"34", @"35", @"36", @"37", @"38", @"39", @"40", @"41", @"42", @"43", @"44", @"45", @"46", @"47", @"48", @"49", @"50", @"51", @"52", @"53", @"54", @"55", @"56", @"57", @"58", @"59", @"60", @"61", @"62", @"63", @"64", @"65", @"66", @"67", @"68", @"69", @"70", @"71", @"72", @"73", @"74", @"75", @"76", @"77", @"78", @"79", @"80", @"81", @"82", @"83", @"84", @"85", @"86", @"87", @"88", @"89", @"90", @"91", @"92", @"93", @"94", @"95", @"96", @"97", @"98", @"99", nil];
-	stroke = [[NSArray alloc ] initWithObjects:@"50 Free", @"100 Free", @"200 Free", @"400/500 Free", @"800/1000 Free", @"1500/1650 Free", @"100 Fly", @"200 Fly", @"100 Back", @"200 Back", @"100 Breast", @"200 Breast", @"200 IM", @"400 IM", nil ];
+	stroke = [[NSArray alloc ] initWithObjects:@"50 Freestyle", @"100 Freestyle", @"200 Freestyle", @"400/500 Freestyle", @"800/1000 Freestyle", @"1500/1650 Freestyle", @"100 Butterfly", @"200 Butterfly", @"100 Backstroke", @"200 Backstroke", @"100 Breaststroke", @"200 Breaststroke", @"200 Individual Medley", @"400 Individual Medley", @"200 Freestyle Relay", @"400 Freestyle Relay", @"800 Freestye Relay", @"200 Medley Relay", @"400 Medley Relay", nil ];
 }
 
 //IDK
@@ -57,10 +58,10 @@
 //Picker width
 -(CGFloat)pickerView:(UIPickerView *)pickerview widthForComponent:(NSInteger) component {
 	if (component == 0 || component == 1 || component == 2) {
-		return 45;
+		return 35;
 	}
 	else {
-		return 210;
+		return 200;
 	}
 }
 
@@ -75,25 +76,30 @@
 	double outputTimeInSeconds;
 	
 	//LC converstin factors (NCAA)
-	double LC50FreeM = 0.860, LC50FreeF = 0.871;
-	double LC100FreeM = 0.863, LC100FreeF = 0.874;
-	double LC200FreeM = 0.865, LC200FreeF = 0.874;
-	double LC400FreeM = 1.105, LC400FreeF = 1.112;
-	double LC1500FreeM = 0.965, LC1500FreeF = 0.975;
-	double LC100FlyM = 0.868, LC100FlyF = 0.877;
-	double LC200FlyM = 0.866, LC200FlyF = 0.881;
-	double LC100BackM = 0.835, LC100BackF = 0.853;
-	double LC200BackM = 0.849, LC200BackF = 0.857;
-	double LC100BreastM = 0.856, LC100BreastF = 0.870;
-	double LC200BreastM = 0.858, LC200BreastF = 0.878;
-	double LC200IMM = 0.857, LC200IMF = 0.867;
-	double LC400IMM = 0.865, LC400IMF = 0.876;
-	double LC1000FreeM = 1.105, LC1000FreeF = 1.120;
+	double LC50FreeM = 0.870, LC50FreeF = 0.881;
+	double LC100FreeM = 0.873, LC100FreeF = 0.884;
+	double LC200FreeM = 0.875, LC200FreeF = 0.884;
+	double LC400FreeM = 1.115, LC400FreeF = 1.122;
+	double LC800FreeM = 1.115, LC800FreeF = 1.130;
+	double LC1500FreeM = 0.975, LC1500FreeF = 0.985;
+	double LC100FlyM = 0.878, LC100FlyF = 0.887;
+	double LC200FlyM = 0.876, LC200FlyF = 0.891;
+	double LC100BackM = 0.855, LC100BackF = 0.873;
+	double LC200BackM = 0.869, LC200BackF = 0.877;
+	double LC100BreastM = 0.866, LC100BreastF = 0.880;
+	double LC200BreastM = 0.868, LC200BreastF = 0.888;
+	double LC200IMM = 0.867, LC200IMF = 0.877;
+	double LC400IMM = 0.875, LC400IMF = 0.886;
+	double LC200FreeRM = 0.870, LC200FreeRF = 0.881;
+	double LC400FreeRM = 0.873, LC400FreeRF = 0.884;
+	double LC800FreeRM = 0.877, LC800FreeRF = 0.884;
+	double LC200MedleyRM = 0.868, LC200MedleyRF = 0.879;
+	double LC400MedleyRM = 0.866, LC400MedleyRF = 0.878;
 	
 	//SC converstion factors (NCAA)
-	double allStrokes = 0.896;
-	double yards400ToMeters500 = 1.143; // 400 meters to 500 yards AND 800 meters to 1000 yards
-	double meters1500ToYards1650 = 1.003;
+	double allStrokes = 0.906;
+	double yards400ToMeters500 = 1.153; // 400 meters to 500 yards AND 800 meters to 1000 yards
+	double meters1500ToYards1650 = 1.013;
 	
 	
 	//Male
@@ -122,7 +128,13 @@
 					[inputTime selectedRowInComponent:3] == 10 || 
 					[inputTime selectedRowInComponent:3] == 11 ||
 					[inputTime selectedRowInComponent:3] == 12 || 
-					[inputTime selectedRowInComponent:3] == 13) {
+					[inputTime selectedRowInComponent:3] == 13 ||
+					[inputTime selectedRowInComponent:3] == 14 ||
+					[inputTime selectedRowInComponent:3] == 15 || 
+					[inputTime selectedRowInComponent:3] == 16 ||
+					[inputTime selectedRowInComponent:3] == 17 || 
+					[inputTime selectedRowInComponent:3] == 18)					
+				{
 					outputTimeInSeconds = timeInSeconds;
 					NSLog(@"Output Time: %f", outputTimeInSeconds);
 				}
@@ -229,6 +241,41 @@
 					outputTimeInSeconds = ( timeInSeconds / allStrokes );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					NSLog(@"200 Free Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					NSLog(@"400 Free Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					NSLog(@"800 Free Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					NSLog(@"200 Medley Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Medly Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					NSLog(@"400 Medley Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
 			}
 			
 			//output course LCM
@@ -266,7 +313,7 @@
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
 					NSLog(@"800 free");					
-					outputTimeInSeconds = ( timeInSeconds / LC1000FreeM );
+					outputTimeInSeconds = ( timeInSeconds / LC800FreeM );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
@@ -332,8 +379,43 @@
 					outputTimeInSeconds = ( timeInSeconds / LC400IMM );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					NSLog(@"200 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC200FreeRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					NSLog(@"400 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC400FreeRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					NSLog(@"800 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC800FreeRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					NSLog(@"200 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC200MedleyRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Realy
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					NSLog(@"400 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC400MedleyRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
 			}
-			}
+		}
 		
 		//input course SCM
 		else if ( selectedUnit == 1 ) {
@@ -439,8 +521,42 @@
 					NSLog(@"400 IM");					
 					outputTimeInSeconds = ( timeInSeconds * allStrokes );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
-				}			
+				}		
 				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					NSLog(@"200 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					NSLog(@"400 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					NSLog(@"800 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					NSLog(@"200 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					NSLog(@"400 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 			
 			//output course SCM
@@ -461,7 +577,13 @@
 					[inputTime selectedRowInComponent:3] == 10 || 
 					[inputTime selectedRowInComponent:3] == 11 ||
 					[inputTime selectedRowInComponent:3] == 12 ||
-					[inputTime selectedRowInComponent:3] == 13) {
+					[inputTime selectedRowInComponent:3] == 13 ||
+					[inputTime selectedRowInComponent:3] == 14 ||
+					[inputTime selectedRowInComponent:3] == 15 || 
+					[inputTime selectedRowInComponent:3] == 16 ||
+					[inputTime selectedRowInComponent:3] == 17 || 
+					[inputTime selectedRowInComponent:3] == 18)					
+				{
 					outputTimeInSeconds = timeInSeconds;
 					NSLog(@"Output Time: %f", outputTimeInSeconds);
 				}
@@ -497,7 +619,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC1000FreeM/yards400ToMeters500) );
+					outputTimeInSeconds = ( timeInSeconds / (LC800FreeM/yards400ToMeters500) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}			
 				
@@ -554,7 +676,37 @@
 					outputTimeInSeconds = ( timeInSeconds / (LC400IMM/allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}					
-			}			
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC200FreeRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC400FreeRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC800FreeRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC200MedleyRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC400MedleyRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);				
+				}			
+			}
 		}
 		
 		//input course LCM
@@ -591,7 +743,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds * LC1000FreeM );
+					outputTimeInSeconds = ( timeInSeconds * LC800FreeM );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
@@ -647,7 +799,37 @@
 				if ([inputTime selectedRowInComponent:3] == 13 ) {
 					outputTimeInSeconds = ( timeInSeconds * LC400IMM );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}	
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC200FreeRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC400FreeRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC800FreeRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC200MedleyRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC400MedleyRM );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 			
 			//output course SCM
@@ -680,7 +862,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds * (LC1000FreeM/yards400ToMeters500) );
+					outputTimeInSeconds = ( timeInSeconds * (LC800FreeM/yards400ToMeters500) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}				
 				
@@ -737,6 +919,36 @@
 					outputTimeInSeconds = ( timeInSeconds * (LC400IMM/allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}	
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC200FreeRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC400FreeRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC800FreeRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC200MedleyRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC400MedleyRM/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 			
 			//output course LCM
@@ -757,7 +969,13 @@
 					[inputTime selectedRowInComponent:3] == 10 || 
 					[inputTime selectedRowInComponent:3] == 11 ||
 					[inputTime selectedRowInComponent:3] == 12 ||
-					[inputTime selectedRowInComponent:3] == 13) {
+					[inputTime selectedRowInComponent:3] == 13 ||
+					[inputTime selectedRowInComponent:3] == 14 ||
+					[inputTime selectedRowInComponent:3] == 15 || 
+					[inputTime selectedRowInComponent:3] == 16 ||
+					[inputTime selectedRowInComponent:3] == 17 || 
+					[inputTime selectedRowInComponent:3] == 18)					
+				{
 					outputTimeInSeconds = timeInSeconds;
 					NSLog(@"Output Time: %f", outputTimeInSeconds);
 				}
@@ -792,7 +1010,13 @@
 					[inputTime selectedRowInComponent:3] == 10 || 
 					[inputTime selectedRowInComponent:3] == 11 ||
 					[inputTime selectedRowInComponent:3] == 12 ||
-					[inputTime selectedRowInComponent:3] == 13) {
+					[inputTime selectedRowInComponent:3] == 13 ||
+					[inputTime selectedRowInComponent:3] == 14 ||
+					[inputTime selectedRowInComponent:3] == 15 || 
+					[inputTime selectedRowInComponent:3] == 16 ||
+					[inputTime selectedRowInComponent:3] == 17 || 
+					[inputTime selectedRowInComponent:3] == 18)					
+				{
 					outputTimeInSeconds = timeInSeconds;
 					NSLog(@"Output Time: %f", outputTimeInSeconds);
 				}
@@ -899,6 +1123,41 @@
 					outputTimeInSeconds = ( timeInSeconds / allStrokes );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}			
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					NSLog(@"200 Free Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					NSLog(@"400 Free Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					NSLog(@"800 Free Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					NSLog(@"200 Medley Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Medly Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					NSLog(@"400 Medley Relay");
+					outputTimeInSeconds = ( timeInSeconds / allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}						
 			}
 			
 			//output course LCM
@@ -931,7 +1190,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds / LC1000FreeF );
+					outputTimeInSeconds = ( timeInSeconds / LC800FreeF );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}	
 				
@@ -988,6 +1247,41 @@
 					outputTimeInSeconds = ( timeInSeconds / LC400IMF );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}							
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					NSLog(@"200 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC200FreeRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					NSLog(@"400 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC400FreeRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					NSLog(@"800 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC800FreeRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					NSLog(@"200 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC200MedleyRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Realy
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					NSLog(@"400 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds / LC400MedleyRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 		}
 		
@@ -1026,7 +1320,7 @@
 					outputTimeInSeconds = ( timeInSeconds * yards400ToMeters500 );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
-					
+				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
 					NSLog(@"800 free");					
@@ -1096,6 +1390,41 @@
 					outputTimeInSeconds = ( timeInSeconds * allStrokes );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}			
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					NSLog(@"200 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					NSLog(@"400 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					NSLog(@"800 Free Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					NSLog(@"200 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					NSLog(@"400 Medley Relay");					
+					outputTimeInSeconds = ( timeInSeconds * allStrokes );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 			
 			//output course SCM
@@ -1116,7 +1445,13 @@
 					[inputTime selectedRowInComponent:3] == 10 || 
 					[inputTime selectedRowInComponent:3] == 11 ||
 					[inputTime selectedRowInComponent:3] == 12 ||
-					[inputTime selectedRowInComponent:3] == 13) {
+					[inputTime selectedRowInComponent:3] == 13 ||
+					[inputTime selectedRowInComponent:3] == 14 ||
+					[inputTime selectedRowInComponent:3] == 15 || 
+					[inputTime selectedRowInComponent:3] == 16 ||
+					[inputTime selectedRowInComponent:3] == 17 || 
+					[inputTime selectedRowInComponent:3] == 18)					
+				{
 					outputTimeInSeconds = timeInSeconds;
 					NSLog(@"Output Time: %f", outputTimeInSeconds);
 				}
@@ -1152,7 +1487,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC1000FreeF/yards400ToMeters500) );
+					outputTimeInSeconds = ( timeInSeconds / (LC800FreeF/yards400ToMeters500) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
@@ -1209,9 +1544,39 @@
 					outputTimeInSeconds = ( timeInSeconds / (LC400IMF/allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}	
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC200FreeRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC400FreeRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC800FreeRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC200MedleyRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					outputTimeInSeconds = ( timeInSeconds / (LC400MedleyRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);				
+				}					
 			}			
 		}
-			
+		
 		//input course LCM
 		else {
 			NSLog(@"Input Course: LCM");
@@ -1246,7 +1611,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds * LC1000FreeF );
+					outputTimeInSeconds = ( timeInSeconds * LC800FreeF );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
@@ -1303,6 +1668,36 @@
 					outputTimeInSeconds = ( timeInSeconds * LC400IMF );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}				
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC200FreeRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC400FreeRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC800FreeRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC200MedleyRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					outputTimeInSeconds = ( timeInSeconds * LC400MedleyRF );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 			
 			//output course SCM
@@ -1335,7 +1730,7 @@
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC1000FreeF * yards400ToMeters500) );
+					outputTimeInSeconds = ( timeInSeconds / (LC800FreeF * yards400ToMeters500) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
@@ -1392,6 +1787,36 @@
 					outputTimeInSeconds = ( timeInSeconds / (LC400IMF * allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}	
+				
+				//200 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 14 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC200FreeRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//400 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 15 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC400FreeRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}				
+				
+				//800 Free Relay
+				if ([inputTime selectedRowInComponent:3] == 16 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC800FreeRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}
+				
+				//200 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 17 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC200MedleyRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
+				
+				//400 Medley Relay
+				if ([inputTime selectedRowInComponent:3] == 18 ) {
+					outputTimeInSeconds = ( timeInSeconds * (LC400MedleyRF/allStrokes) );
+					NSLog(@"Output time: %f", outputTimeInSeconds);
+				}					
 			}
 			
 			//output course LCM
@@ -1412,7 +1837,13 @@
 					[inputTime selectedRowInComponent:3] == 10 || 
 					[inputTime selectedRowInComponent:3] == 11 ||
 					[inputTime selectedRowInComponent:3] == 12 ||
-					[inputTime selectedRowInComponent:3] == 13) {
+					[inputTime selectedRowInComponent:3] == 13 ||
+					[inputTime selectedRowInComponent:3] == 14 ||
+					[inputTime selectedRowInComponent:3] == 15 || 
+					[inputTime selectedRowInComponent:3] == 16 ||
+					[inputTime selectedRowInComponent:3] == 17 || 
+					[inputTime selectedRowInComponent:3] == 18)					
+				{
 					outputTimeInSeconds = timeInSeconds;
 					NSLog(@"Output Time: %f", outputTimeInSeconds);
 				}
@@ -1462,7 +1893,7 @@
 	done = [NSMutableString stringWithString: M];
 	[done insertString: S atIndex: [done length]];
 	[done insertString: H atIndex: [done length]];
-	NSLog(done);
+	//	NSLog(done);
 	
 	finalTime.text = done;
 	

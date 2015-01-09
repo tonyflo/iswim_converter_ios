@@ -2,8 +2,8 @@
 //  iSwim_ConverterAppDelegate.h
 //  iSwim Converter
 //
-//  Created by Tony Florida on 6/10/10.
-//  Copyright Raddfood 2010. All rights reserved.
+//  Created by Tony Florida on 11/4/10.
+//  Copyright 2010 Raddfood. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

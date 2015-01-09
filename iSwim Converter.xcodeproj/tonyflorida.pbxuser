@@ -1,37 +1,50 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* iSwim_ConverterAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {607, 299}}";
+			sepNavSelRange = "{126, 0}";
+			sepNavVisRange = "{0, 511}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iSwim_ConverterAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1222}}";
+			sepNavSelRange = "{126, 0}";
+			sepNavVisRange = "{0, 379}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* iSwim Converter */ = {
 		activeExec = 0;
 		executables = (
-			CF9D11A211C199640037E998 /* iSwim Converter */,
+			CFA1168812830BD200557046 /* iSwim Converter */,
 		);
 	};
 	28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 630}}";
-			sepNavSelRange = "{1168, 0}";
-			sepNavVisRange = "{540, 635}";
+			sepNavIntBoundsRect = "{{0, 0}, {544, 572}}";
+			sepNavSelRange = "{1144, 0}";
+			sepNavVisRange = "{0, 408}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            c =             (\n                                {\n                    r = \"{4803, 889}\";\n                    s = 0;\n                },\n                                {\n                    c =                     (\n                                                {\n                            r = \"{5858, 141}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6074, 142}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6295, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6517, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6752, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6984, 159}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7217, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7441, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7662, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7889, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8114, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8345, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8568, 145}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8792, 145}\";\n                            s = 0;\n                        }\n                    );\n                    r = \"{5751, 3191}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{9001, 3160}\";\n                    s = 0;\n                }\n            );\n            r = \"{4713, 7453}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{12316, 3201}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{15576, 888}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{16523, 2972}\";\n                    s = 0;\n                }\n            );\n            r = \"{12225, 7277}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{19626, 2757}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{22442, 2969}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{25470, 887}\";\n                    s = 0;\n                }\n            );\n            r = \"{19536, 6832}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{26565, 888}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{27512, 3192}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{30763, 2759}\";\n                    s = 0;\n                }\n            );\n            r = \"{26475, 7051}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    c =                     (\n                                                {\n                            r = \"{33787, 141}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34003, 142}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34224, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34446, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34678, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34914, 159}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35147, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35371, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35592, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35819, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36044, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36275, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36498, 145}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36722, 145}\";\n                            s = 0;\n                        }\n                    );\n                    r = \"{33676, 3199}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{36934, 888}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{37881, 2963}\";\n                    s = 0;\n                }\n            );\n            r = \"{33585, 7266}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{40976, 2754}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{43789, 2991}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{46839, 887}\";\n                    s = 0;\n                }\n            );\n            r = \"{40886, 6851}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 50157}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {4524, 3220}}";
-			sepNavSelRange = "{4593, 0}";
-			sepNavVisRange = "{5327, 820}";
+			sepNavIntBoundsRect = "{{0, 0}, {5276, 35321}}";
+			sepNavSelRange = "{3494, 0}";
+			sepNavVisRange = "{6314, 439}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
-		activeExecutable = CF9D11A211C199640037E998 /* iSwim Converter */;
-		activeSDKPreference = iphonesimulator3.1.3;
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = CFA1168812830BD200557046 /* iSwim Converter */;
+		activeSDKPreference = iphoneos4.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* iSwim Converter */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* iSwim Converter */,
 		);
-		codeSenseManager = CF9D11B611C199750037E998 /* Code sense */;
+		codeSenseManager = CFA1169912830BF000557046 /* Code sense */;
 		executables = (
-			CF9D11A211C199640037E998 /* iSwim Converter */,
+			CFA1168812830BD200557046 /* iSwim Converter */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -39,7 +52,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					577,
+					341,
 					20,
 					48,
 					43,
@@ -61,10 +74,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					537,
+					301,
 					60,
 					20,
-					48,
+					48.16259765625,
 					43,
 					43,
 				);
@@ -78,82 +91,21 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 301091365;
-			PBXWorkspaceStateSaveDate = 301091365;
+			PBXPerProjectTemplateStateSaveDate = 310578130;
+			PBXWorkspaceStateSaveDate = 310578130;
 		};
 		perUserProjectItems = {
-			CF8E665311F24A4900BC9DF3 /* PBXTextBookmark */ = CF8E665311F24A4900BC9DF3 /* PBXTextBookmark */;
-			CF946CEC11F0D4CF001D2278 /* PBXTextBookmark */ = CF946CEC11F0D4CF001D2278 /* PBXTextBookmark */;
-			CF9A6C5311E7379B001F181B /* PBXTextBookmark */ = CF9A6C5311E7379B001F181B /* PBXTextBookmark */;
-			CF9A6C5411E7379B001F181B /* PBXTextBookmark */ = CF9A6C5411E7379B001F181B /* PBXTextBookmark */;
-			CF9A6C5511E7379B001F181B /* PBXTextBookmark */ = CF9A6C5511E7379B001F181B /* PBXTextBookmark */;
-			CF9D11F711C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F711C1A07C0037E998 /* PBXTextBookmark */;
-			CF9D11F811C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F811C1A07C0037E998 /* PBXTextBookmark */;
-			CFA1772211DD8464000AB6FE /* PlistBookmark */ = CFA1772211DD8464000AB6FE /* PlistBookmark */;
-			CFA1772311DD8464000AB6FE /* PlistBookmark */ = CFA1772311DD8464000AB6FE /* PlistBookmark */;
+			CFA116D212830E4700557046 /* PBXTextBookmark */ = CFA116D212830E4700557046 /* PBXTextBookmark */;
+			CFA116D312830E4700557046 /* PBXTextBookmark */ = CFA116D312830E4700557046 /* PBXTextBookmark */;
+			CFA116D412830E4700557046 /* PBXTextBookmark */ = CFA116D412830E4700557046 /* PBXTextBookmark */;
+			CFA116D512830E4700557046 /* PBXTextBookmark */ = CFA116D512830E4700557046 /* PBXTextBookmark */;
+			CFA116E412830E9A00557046 /* PBXTextBookmark */ = CFA116E412830E9A00557046 /* PBXTextBookmark */;
 		};
-		sourceControlManager = CF9D11B511C199750037E998 /* Source Control */;
+		sourceControlManager = CFA1169812830BF000557046 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {624, 253}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 199}";
-		};
-	};
-	CF8E665311F24A4900BC9DF3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
-		name = "iSwim_ConverterViewController.m: 96";
-		rLen = 0;
-		rLoc = 4593;
-		rType = 0;
-		vrLen = 820;
-		vrLoc = 48051;
-	};
-	CF946CEC11F0D4CF001D2278 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
-		name = "iSwim_ConverterViewController.m: 96";
-		rLen = 0;
-		rLoc = 4593;
-		rType = 0;
-		vrLen = 2512;
-		vrLoc = 62;
-	};
-	CF9A6C5311E7379B001F181B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */;
-		name = "iSwim_Converter_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 199;
-		vrLoc = 0;
-	};
-	CF9A6C5411E7379B001F181B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */;
-		name = "iSwim_ConverterViewController.h: 42";
-		rLen = 0;
-		rLoc = 1168;
-		rType = 0;
-		vrLen = 635;
-		vrLoc = 540;
-	};
-	CF9A6C5511E7379B001F181B /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */;
-		name = "iSwim_Converter_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 199;
-		vrLoc = 0;
-	};
-	CF9D11A211C199640037E998 /* iSwim Converter */ = {
+	CFA1168812830BD200557046 /* iSwim Converter */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -164,6 +116,9 @@
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
 		dylibVariantSuffix = "";
@@ -174,60 +129,74 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = "iSwim Converter";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
 		sourceDirectories = (
 		);
 	};
-	CF9D11B511C199750037E998 /* Source Control */ = {
+	CFA1169812830BF000557046 /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
 		};
 	};
-	CF9D11B611C199750037E998 /* Code sense */ = {
+	CFA1169912830BF000557046 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	CF9D11F711C1A07C0037E998 /* PBXTextBookmark */ = {
+	CFA116D212830E4700557046 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iSwim_ConverterAppDelegate.h */;
+		name = "iSwim_ConverterAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+	CFA116D312830E4700557046 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iSwim_ConverterAppDelegate.m */;
+		name = "iSwim_ConverterAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 0;
+	};
+	CFA116D412830E4700557046 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */;
 		name = "iSwim_ConverterViewController.h: 42";
 		rLen = 0;
-		rLoc = 1168;
+		rLoc = 1144;
 		rType = 0;
-		vrLen = 363;
+		vrLen = 408;
 		vrLoc = 0;
 	};
-	CF9D11F811C1A07C0037E998 /* PBXTextBookmark */ = {
+	CFA116D512830E4700557046 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
-		name = "iSwim_ConverterViewController.m: 1";
+		name = "iSwim_ConverterViewController.m: 6";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 129;
 		rType = 0;
-		vrLen = 258;
-		vrLoc = 39495;
+		vrLen = 547;
+		vrLoc = 0;
 	};
-	CFA1772211DD8464000AB6FE /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter-Info.plist";
+	CFA116E412830E9A00557046 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
+		name = "iSwim_ConverterViewController.m: 61";
 		rLen = 0;
-		rLoc = 2147483647;
-	};
-	CFA1772311DD8464000AB6FE /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter-Info.plist";
-		rLen = 0;
-		rLoc = 2147483647;
+		rLoc = 3494;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 6314;
 	};
 }

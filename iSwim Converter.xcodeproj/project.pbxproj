@@ -15,7 +15,7 @@
 		2899E5220DE3E06400AC0155 /* iSwim_ConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iSwim_ConverterViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iSwim_ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */; };
-		CF8CA2AB11E7E23300B379BF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8CA2AA11E7E23300B379BF /* Icon.png */; };
+		CFA1169E12830C3600557046 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA1169D12830C3600557046 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSwim_Converter_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iSwim_Converter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		CF8CA2AA11E7E23300B379BF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CFA1169D12830C3600557046 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CF8CA2AA11E7E23300B379BF /* Icon.png */,
+				CFA1169D12830C3600557046 /* Icon.png */,
 				2899E5210DE3E06400AC0155 /* iSwim_ConverterViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */,
@@ -137,7 +137,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iSwim Converter" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,7 +161,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* iSwim_ConverterViewController.xib in Resources */,
-				CF8CA2AB11E7E23300B379BF /* Icon.png in Resources */,
+				CFA1169E12830C3600557046 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +204,7 @@
 				GCC_PREFIX_HEADER = iSwim_Converter_Prefix.pch;
 				INFOPLIST_FILE = "iSwim_Converter-Info.plist";
 				PRODUCT_NAME = "iSwim Converter";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -204,12 +212,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tony Florida";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "40373D7E-D301-4332-B9F7-C81AB68D2FF5";
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -221,35 +230,37 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Release;
 		};
-		CFA71CE711C1CF9C00266B67 /* Distribution */ = {
+		CFA116C812830E0700557046 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tony Florida";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.1.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "40373D7E-D301-4332-B9F7-C81AB68D2FF5";
+				SDKROOT = iphoneos4.1;
 			};
 			name = Distribution;
 		};
-		CFA71CE811C1CF9C00266B67 /* Distribution */ = {
+		CFA116C912830E0700557046 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tony Florida";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iSwim_Converter_Prefix.pch;
 				INFOPLIST_FILE = "iSwim_Converter-Info.plist";
 				PRODUCT_NAME = "iSwim Converter";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "72D38526-A1FF-446E-9F3F-F251375AE51B";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
 		};
@@ -261,7 +272,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
-				CFA71CE811C1CF9C00266B67 /* Distribution */,
+				CFA116C912830E0700557046 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -271,7 +282,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
-				CFA71CE711C1CF9C00266B67 /* Distribution */,
+				CFA116C812830E0700557046 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

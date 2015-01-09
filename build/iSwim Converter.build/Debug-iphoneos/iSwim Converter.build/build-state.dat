@@ -1,0 +1,255 @@
+TiSwim Converter
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.h
+c000000004CD2D5610000000000000206
+t1288885601
+s518
+i<UIKit/UIKit.h>
+
+N/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m
+c000000004CD2D5610000000000000AAA
+t1288885601
+s2730
+i"iSwim_ConverterAppDelegate.h"
+i"iSwim_ConverterViewController.h"
+
+N/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.h
+c000000004CD2D561000000000000047A
+t1288885601
+s1146
+i<UIKit/UIKit.h>
+
+N/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m
+c000000004CD2D60000000000000100C5
+t1288885760
+s65733
+i"iSwim_ConverterViewController.h"
+
+N/Users/tonyflorida/Documents/iSwim Converter/Icon.png
+c000000004C37E1D80000000000001560
+t1278730712
+s5472
+
+N/Users/tonyflorida/Documents/iSwim Converter/MainWindow.xib
+c000000004CD2D4520000000000004E89
+t1288885330
+s20105
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app.dSYM
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/Icon.png
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/Info.plist
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/MainWindow.nib
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/PkgInfo
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/ResourceRules.plist
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/iSwim Converter
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/iSwim_ConverterViewController.nib
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim Converter
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim Converter.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim_ConverterAppDelegate.o
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim_ConverterViewController.o
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim Converter
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim Converter.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim_ConverterAppDelegate.o
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim_ConverterViewController.o
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/tonyflorida/Documents/iSwim Converter/iSwim_ConverterViewController.xib
+c000000004CD2D672000000000000A7B7
+t1288885874
+s42935
+
+N/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter_Prefix.pch
+c000000004CD2D45200000000000000C7
+t1288885330
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tonyflorida/Documents/iSwim Converter/main.m
+c000000004CD2D4520000000000000171
+t1288885330
+s369
+i<UIKit/UIKit.h>
+
+N/Users/tonyflorida/Library/MobileDevice/Provisioning Profiles/40373D7E-D301-4332-B9F7-C81AB68D2FF5.mobileprovision
+c000000004CD23A2D0000000000001B8A
+t1288845869
+s7050
+
+N/var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-ajvjdbyadkdloxcpnelwudyuenhn/iSwim_Converter_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-bvyirlamcpywnfajeryqqtjesfgz/iSwim_Converter_Prefix.pch.gch
+t2
+s0
+
+NiSwim_Converter-Info.plist
+c000000004CD2D6B40000000000000368
+t1288885940
+s872
+
+CCodeSign "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app"
+r0
+
+CCompileC "build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim_ConverterAppDelegate.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim_ConverterViewController.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/main.o" "/Users/tonyflorida/Documents/iSwim Converter/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim_ConverterAppDelegate.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim_ConverterViewController.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/main.o" "/Users/tonyflorida/Documents/iSwim Converter/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/tonyflorida/Documents/iSwim Converter/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/tonyflorida/Documents/iSwim Converter/iSwim_ConverterViewController.xib"
+r0
+
+CCopyPNGFile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/Icon.png" Icon.png
+r0
+
+CCpResource "build/Debug-iphoneos/iSwim Converter.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/iSwim Converter" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app.dSYM" "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/iSwim Converter"
+r0
+
+CLd "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv6/iSwim Converter" normal armv6
+r0
+
+CLd "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/Objects-normal/armv7/iSwim Converter" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/Info.plist" iSwim_Converter-Info.plist
+r0
+
+CProcessPCH /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-ajvjdbyadkdloxcpnelwudyuenhn/iSwim_Converter_Prefix.pch.gch iSwim_Converter_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-bvyirlamcpywnfajeryqqtjesfgz/iSwim_Converter_Prefix.pch.gch iSwim_Converter_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/tonyflorida/Library/MobileDevice/Provisioning Profiles/40373D7E-D301-4332-B9F7-C81AB68D2FF5.mobileprovision" "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphoneos/iSwim Converter.build/iSwim Converter.xcent"
+r0
+
+CTouch "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphoneos/iSwim Converter.app"
+r0
+
