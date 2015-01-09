@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Icon.png</key>
+		<data>
+		R4QoerLBYbaD8FVVE8L1Z7583eY=
+		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		1GisGKKObIMUZPGA4l0szfRsGIA=
+		jk0s8/mQayAzsPmEOxZFb1sAvqY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -18,11 +22,7 @@
 		</data>
 		<key>iSwim_ConverterViewController.nib</key>
 		<data>
-		lNn47YcvPIg34kjp5WgsQpUSd+4=
-		</data>
-		<key>icon.png</key>
-		<data>
-		kVzkE+Vx65XXcPOqdBPhADE4I1M=
+		YzTK4CDCtYAKYY0kWAdP8i12KUg=
 		</data>
 	</dict>
 	<key>rules</key>

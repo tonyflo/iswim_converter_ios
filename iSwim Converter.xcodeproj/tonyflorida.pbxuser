@@ -10,20 +10,21 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {519, 630}}";
 			sepNavSelRange = "{1168, 0}";
-			sepNavVisRange = "{325, 598}";
+			sepNavVisRange = "{540, 635}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 17024}}";
-			sepNavSelRange = "{37736, 0}";
-			sepNavVisRange = "{37554, 240}";
+			sepNavFolds = "{\n    c =     (\n                {\n            c =             (\n                                {\n                    r = \"{4803, 889}\";\n                    s = 0;\n                },\n                                {\n                    c =                     (\n                                                {\n                            r = \"{5858, 141}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6074, 142}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6295, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6517, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6752, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{6984, 159}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7217, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7441, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7662, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{7889, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8114, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8345, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8568, 145}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{8792, 145}\";\n                            s = 0;\n                        }\n                    );\n                    r = \"{5751, 3191}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{9001, 3160}\";\n                    s = 0;\n                }\n            );\n            r = \"{4713, 7453}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{12316, 3201}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{15576, 888}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{16523, 2972}\";\n                    s = 0;\n                }\n            );\n            r = \"{12225, 7277}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{19626, 2757}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{22442, 2969}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{25470, 887}\";\n                    s = 0;\n                }\n            );\n            r = \"{19536, 6832}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{26565, 888}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{27512, 3192}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{30763, 2759}\";\n                    s = 0;\n                }\n            );\n            r = \"{26475, 7051}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    c =                     (\n                                                {\n                            r = \"{33787, 141}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34003, 142}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34224, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34446, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34678, 156}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{34914, 159}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35147, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35371, 146}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35592, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{35819, 147}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36044, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36275, 149}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36498, 145}\";\n                            s = 0;\n                        },\n                                                {\n                            r = \"{36722, 145}\";\n                            s = 0;\n                        }\n                    );\n                    r = \"{33676, 3199}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{36934, 888}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{37881, 2963}\";\n                    s = 0;\n                }\n            );\n            r = \"{33585, 7266}\";\n            s = 0;\n        },\n                {\n            c =             (\n                                {\n                    r = \"{40976, 2754}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{43789, 2991}\";\n                    s = 0;\n                },\n                                {\n                    r = \"{46839, 887}\";\n                    s = 0;\n                }\n            );\n            r = \"{40886, 6851}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 50157}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {4524, 3220}}";
+			sepNavSelRange = "{4593, 0}";
+			sepNavVisRange = "{5327, 820}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = CF9D11A211C199640037E998 /* iSwim Converter */;
-		activeSDKPreference = iphoneos3.1.3;
+		activeSDKPreference = iphonesimulator3.1.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* iSwim Converter */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* iSwim Converter */,
@@ -38,7 +39,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					577,
 					20,
 					48,
 					43,
@@ -60,7 +61,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					301,
+					537,
 					60,
 					20,
 					48,
@@ -77,20 +78,19 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299730507;
-			PBXWorkspaceStateSaveDate = 299730507;
+			PBXPerProjectTemplateStateSaveDate = 301091365;
+			PBXWorkspaceStateSaveDate = 301091365;
 		};
 		perUserProjectItems = {
-			CF9D11F511C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F511C1A07C0037E998 /* PBXTextBookmark */;
+			CF8E665311F24A4900BC9DF3 /* PBXTextBookmark */ = CF8E665311F24A4900BC9DF3 /* PBXTextBookmark */;
+			CF946CEC11F0D4CF001D2278 /* PBXTextBookmark */ = CF946CEC11F0D4CF001D2278 /* PBXTextBookmark */;
+			CF9A6C5311E7379B001F181B /* PBXTextBookmark */ = CF9A6C5311E7379B001F181B /* PBXTextBookmark */;
+			CF9A6C5411E7379B001F181B /* PBXTextBookmark */ = CF9A6C5411E7379B001F181B /* PBXTextBookmark */;
+			CF9A6C5511E7379B001F181B /* PBXTextBookmark */ = CF9A6C5511E7379B001F181B /* PBXTextBookmark */;
 			CF9D11F711C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F711C1A07C0037E998 /* PBXTextBookmark */;
 			CF9D11F811C1A07C0037E998 /* PBXTextBookmark */ = CF9D11F811C1A07C0037E998 /* PBXTextBookmark */;
 			CFA1772211DD8464000AB6FE /* PlistBookmark */ = CFA1772211DD8464000AB6FE /* PlistBookmark */;
 			CFA1772311DD8464000AB6FE /* PlistBookmark */ = CFA1772311DD8464000AB6FE /* PlistBookmark */;
-			CFA1773A11DD863D000AB6FE /* PBXTextBookmark */ = CFA1773A11DD863D000AB6FE /* PBXTextBookmark */;
-			CFA1773D11DD863D000AB6FE /* PBXTextBookmark */ = CFA1773D11DD863D000AB6FE /* PBXTextBookmark */;
-			CFA1774B11DD86CE000AB6FE /* PBXTextBookmark */ = CFA1774B11DD86CE000AB6FE /* PBXTextBookmark */;
-			CFA71D0211C1D1C000266B67 /* PBXBookmark */ = CFA71D0211C1D1C000266B67 /* PBXBookmark */;
-			CFA71D0311C1D1C000266B67 /* PBXBookmark */ = CFA71D0311C1D1C000266B67 /* PBXBookmark */;
 		};
 		sourceControlManager = CF9D11B511C199750037E998 /* Source Control */;
 		userBuildSettings = {
@@ -102,6 +102,56 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 199}";
 		};
+	};
+	CF8E665311F24A4900BC9DF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
+		name = "iSwim_ConverterViewController.m: 96";
+		rLen = 0;
+		rLoc = 4593;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 48051;
+	};
+	CF946CEC11F0D4CF001D2278 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
+		name = "iSwim_ConverterViewController.m: 96";
+		rLen = 0;
+		rLoc = 4593;
+		rType = 0;
+		vrLen = 2512;
+		vrLoc = 62;
+	};
+	CF9A6C5311E7379B001F181B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */;
+		name = "iSwim_Converter_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	CF9A6C5411E7379B001F181B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */;
+		name = "iSwim_ConverterViewController.h: 42";
+		rLen = 0;
+		rLoc = 1168;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 540;
+	};
+	CF9A6C5511E7379B001F181B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */;
+		name = "iSwim_Converter_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
 	};
 	CF9D11A211C199640037E998 /* iSwim Converter */ = {
 		isa = PBXExecutable;
@@ -137,16 +187,6 @@
 	CF9D11B611C199750037E998 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	CF9D11F511C1A07C0037E998 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* iSwim_ConverterViewController.h */;
-		name = "iSwim_ConverterViewController.h: 42";
-		rLen = 0;
-		rLoc = 1168;
-		rType = 0;
-		vrLen = 598;
-		vrLoc = 325;
 	};
 	CF9D11F711C1A07C0037E998 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -189,43 +229,5 @@
 		name = "/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter-Info.plist";
 		rLen = 0;
 		rLoc = 2147483647;
-	};
-	CFA1773A11DD863D000AB6FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
-		name = "iSwim_ConverterViewController.m: 1098";
-		rLen = 0;
-		rLoc = 37736;
-		rType = 0;
-		vrLen = 240;
-		vrLoc = 37554;
-	};
-	CFA1773D11DD863D000AB6FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */;
-		name = "iSwim_Converter_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 199;
-		vrLoc = 0;
-	};
-	CFA1774B11DD86CE000AB6FE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */;
-		name = "iSwim_Converter_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 199;
-		vrLoc = 0;
-	};
-	CFA71D0211C1D1C000266B67 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = CFA71CEC11C1D11D00266B67 /* icon.png */;
-	};
-	CFA71D0311C1D1C000266B67 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = CFA71CEC11C1D11D00266B67 /* icon.png */;
 	};
 }

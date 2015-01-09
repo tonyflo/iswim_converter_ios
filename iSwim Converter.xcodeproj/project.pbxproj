@@ -15,7 +15,7 @@
 		2899E5220DE3E06400AC0155 /* iSwim_ConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iSwim_ConverterViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* iSwim_ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */; };
-		CFA71CED11C1D11D00266B67 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA71CEC11C1D11D00266B67 /* icon.png */; };
+		CF8CA2AB11E7E23300B379BF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8CA2AA11E7E23300B379BF /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* iSwim_Converter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSwim_Converter_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iSwim_Converter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		CFA71CEC11C1D11D00266B67 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CF8CA2AA11E7E23300B379BF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CFA71CEC11C1D11D00266B67 /* icon.png */,
+				CF8CA2AA11E7E23300B379BF /* Icon.png */,
 				2899E5210DE3E06400AC0155 /* iSwim_ConverterViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iSwim_Converter-Info.plist */,
@@ -154,7 +154,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* iSwim_ConverterViewController.xib in Resources */,
-				CFA71CED11C1D11D00266B67 /* icon.png in Resources */,
+				CF8CA2AB11E7E23300B379BF /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
