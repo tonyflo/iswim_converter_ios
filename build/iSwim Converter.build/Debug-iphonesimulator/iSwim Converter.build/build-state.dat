@@ -1,19 +1,19 @@
 TiSwim Converter
 v7
 r0
-t310578675.972469
+t315709496.629959
 cCheck dependencies
-cProcessInfoPlistFile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist" iSwim_Converter-Info.plist
-cCompileXIB "/Users/tonyflorida/Documents/iSwim Converter/MainWindow.xib"
-cCompileXIB "/Users/tonyflorida/Documents/iSwim Converter/iSwim_ConverterViewController.xib"
+cProcessInfoPlistFile "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist" iSwim_Converter-Info.plist
+cCompileXIB "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/MainWindow.xib"
+cCompileXIB "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_ConverterViewController.xib"
 cCpResource "build/Debug-iphonesimulator/iSwim Converter.app/Icon.png" Icon.png
-cProcessPCH /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-aejyqrjjdwzjzqexncldglctabfz/iSwim_Converter_Prefix.pch.gch iSwim_Converter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o" "/Users/tonyflorida/Documents/iSwim Converter/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter" normal i386
-cGenerateDSYMFile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app.dSYM" "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"
-cTouch "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app"
+cProcessPCH /var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch.gch iSwim_Converter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter" normal i386
+cGenerateDSYMFile "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app.dSYM" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"
+cTouch "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
 c000000004C6C30170000000000000110
@@ -147,6 +147,112 @@ t1288885330
 s369
 i<UIKit/UIKit.h>
 
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.h
+c000000004CD2D5600000000000000206
+t1288885600
+s518
+i<UIKit/UIKit.h>
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m
+c000000004CD2D5600000000000000AAA
+t1288885600
+s2730
+i"iSwim_ConverterAppDelegate.h"
+i"iSwim_ConverterViewController.h"
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.h
+c000000004CD2D560000000000000047A
+t1288885600
+s1146
+i<UIKit/UIKit.h>
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m
+c000000004D05862000000000000100A7
+t1292207648
+s65703
+i"iSwim_ConverterViewController.h"
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Icon.png
+c000000004C37E1D80000000000001560
+t1278730712
+s5472
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/MainWindow.xib
+c000000004CD2D4520000000000004E89
+t1288885330
+s20105
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app
+t1294016696
+s32768
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app.dSYM
+t1292207650
+s32768
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/Icon.png
+t1288885602
+s5472
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist
+t1290995714
+s634
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/MainWindow.nib
+t1288885602
+s1697
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/PkgInfo
+t1290995714
+s8
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter
+t1292207650
+s72068
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim_ConverterViewController.nib
+t1294016696
+s7680
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim Converter.LinkFileList
+c000000004CF308000000000000000209
+t1290995712
+s521
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o
+t1292026922
+s50264
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o
+t1292207650
+s131580
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o
+t1292026922
+s6344
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_ConverterViewController.xib
+c000000004D2120B6000000000000A8F3
+t1294016694
+s43251
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_Converter_Prefix.pch
+c000000004CD2D45200000000000000C7
+t1288885330
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m
+c000000004CD2D4520000000000000171
+t1288885330
+s369
+i<UIKit/UIKit.h>
+
+N/var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch.gch
+t1290995715
+s10204720
+
 N/var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-aejyqrjjdwzjzqexncldglctabfz/iSwim_Converter_Prefix.pch.gch
 t1288885603
 s10204720
@@ -158,7 +264,7 @@ s872
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies310578675#310578675#0(0"0(0#1#0"2526703552#0"0#
+lSLF07#2@18"Check dependencies315709495#315709495#0(0"0(0#1#0"2543493776#0"0#
 
 CCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s310578403.547831
@@ -173,6 +279,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m310578403#310578403#0(0"0(0#0#81"/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m2526703552#2214"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator" "-I/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/include" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -include /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-aejyqrjjdwzjzqexncldglctabfz/iSwim_Converter_Prefix.pch -c "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterAppDelegate.m" -o "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o"0#
 
+CCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313719722.359070
+e313719722.480784
+r1
+xCompileC
+xbuild/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m313719722#313719722#0(0"0(0#0#95"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m4231240#2368"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/include" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -include /var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch -c "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterAppDelegate.m" -o "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterAppDelegate.o"0#
+
 CCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o" "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s310578560.646472
 e310578561.401089
@@ -186,6 +305,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@92"Compile /Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m310578560#310578561#0(0"0(0#0#84"/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m2526703552#2220"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator" "-I/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/include" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -include /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-aejyqrjjdwzjzqexncldglctabfz/iSwim_Converter_Prefix.pch -c "/Users/tonyflorida/Documents/iSwim Converter/Classes/iSwim_ConverterViewController.m" -o "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o"0#
 
+CCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313900449.683524
+e313900450.527137
+r1
+xCompileC
+xbuild/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m313900449#313900450#0(0"0(0#0#98"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m2543493776#2374"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/include" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -include /var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch -c "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/Classes/iSwim_ConverterViewController.m" -o "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim_ConverterViewController.o"0#
+
 CCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o" "/Users/tonyflorida/Documents/iSwim Converter/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s310578403.457343
 e310578403.547683
@@ -198,6 +330,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@59"Compile /Users/tonyflorida/Documents/iSwim Converter/main.m310578403#310578403#0(0"0(0#0#51"/Users/tonyflorida/Documents/iSwim Converter/main.m2526703552#2162"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator" "-I/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/include" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -include /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-aejyqrjjdwzjzqexncldglctabfz/iSwim_Converter_Prefix.pch -c "/Users/tonyflorida/Documents/iSwim Converter/main.m" -o "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313719721.377235
+e313719722.358905
+r1
+xCompileC
+xbuild/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m313719721#313719722#0(0"0(0#0#65"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m4231240#2316"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/include" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -include /var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch -c "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/main.m" -o "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/main.o"0#
 
 CCompileXIB "/Users/tonyflorida/Documents/iSwim Converter/MainWindow.xib"
 s310578401.457548
@@ -214,6 +359,17 @@ r1
 xCompileXIB
 x/Users/tonyflorida/Documents/iSwim Converter/iSwim_ConverterViewController.xib
 lSLF07#2@44"CompileXIB iSwim_ConverterViewController.xib310578675#310578675#0(0"0(0#0#78"/Users/tonyflorida/Documents/iSwim Converter/iSwim_ConverterViewController.xib2526703552#640"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim_ConverterViewController.nib" "/Users/tonyflorida/Documents/iSwim Converter/iSwim_ConverterViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_ConverterViewController.xib"
+s315709495.899927
+e315709496.625147
+r1
+xCompileXIB
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_ConverterViewController.xib
+lSLF07#2@44"CompileXIB iSwim_ConverterViewController.xib315709495#315709496#0(0"0(0#0#92"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_ConverterViewController.xib2543493776#682"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim_ConverterViewController.nib" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_ConverterViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCpResource "build/Debug-iphonesimulator/iSwim Converter.app/Icon.png" Icon.png
 s310578402.121288
@@ -233,6 +389,15 @@ x/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim 
 x/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter
 lSLF07#2@137"GenerateDSYMFile "build/Debug-iphonesimulator/iSwim Converter.app.dSYM" "build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"310578561#310578561#0(0"0(0#0#108"/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter2526703552#431"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter" -o "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app.dSYM"0#
 
+CGenerateDSYMFile "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app.dSYM" "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"
+s313900450.741347
+e313900450.963753
+r1
+xGenerateDSYMFile
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app.dSYM
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter
+lSLF07#2@137"GenerateDSYMFile "build/Debug-iphonesimulator/iSwim Converter.app.dSYM" "build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"313900450#313900450#0(0"0(0#0#122"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter2543493776#473"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter" -o "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app.dSYM"0#
+
 CLd "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter" normal i386
 s310578561.401218
 e310578561.442695
@@ -243,6 +408,16 @@ xnormal
 xi386
 lSLF07#2@113"Link /Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter310578561#310578561#0(0"0(0#0#0"2526703552#980"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator" "-F/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator" -filelist "/Users/tonyflorida/Documents/iSwim Converter/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim Converter.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"0#
 
+CLd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter" normal i386
+s313900450.527267
+e313900450.741179
+r1
+xLd
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter
+xnormal
+xi386
+lSLF07#2@127"Link /Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter313900450#313900450#0(0"0(0#0#0"2543493776#1050"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator" "-F/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator" -filelist "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/Objects-normal/i386/iSwim Converter.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/iSwim Converter"0#
+
 CProcessInfoPlistFile "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist" iSwim_Converter-Info.plist
 s310578401.451946
 e310578401.457423
@@ -251,6 +426,28 @@ xProcessInfoPlistFile
 x/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist
 xiSwim_Converter-Info.plist
 lSLF07#2@34"Process iSwim_Converter-Info.plist310578401#310578401#0(0"0(0#0#71"/Users/tonyflorida/Documents/iSwim Converter/iSwim_Converter-Info.plist2526703552#527"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iSwim_Converter-Info.plist -genpkginfo "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist"0#
+
+CProcessInfoPlistFile "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist" iSwim_Converter-Info.plist
+s312688514.004566
+e312688514.008253
+r1
+xProcessInfoPlistFile
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist
+xiSwim_Converter-Info.plist
+lSLF07#2@34"Process iSwim_Converter-Info.plist312688514#312688514#0(0"0(0#0#85"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_Converter-Info.plist2543493776#569"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iSwim_Converter-Info.plist -genpkginfo "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app/Info.plist"0#
+
+CProcessPCH /var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch.gch iSwim_Converter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312688514.008632
+e312688515.282659
+r1
+xProcessPCH
+x/var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch.gch
+xiSwim_Converter_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile iSwim_Converter_Prefix.pch312688514#312688515#0(0"0(0#0#85"/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_Converter_Prefix.pch2543493776#2178"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-generated-files.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-own-target-headers.hmap" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-all-target-headers.hmap" -iquote "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/iSwim Converter-project-headers.hmap" "-F/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/include" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources/i386" "-I/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/iSwim Converter.build/Debug-iphonesimulator/iSwim Converter.build/DerivedSources" -c "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/iSwim_Converter_Prefix.pch" -o /var/folders/Lr/Lr+EQXamH88K9HZ42Djg9U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-apcccenpnwafrrbaxtfobbdnjudu/iSwim_Converter_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/au/autTDVf9EB878drwC63fz++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iSwim_Converter_Prefix-aejyqrjjdwzjzqexncldglctabfz/iSwim_Converter_Prefix.pch.gch iSwim_Converter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s310578402.396378
@@ -272,4 +469,12 @@ r1
 xTouch
 x/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app
 lSLF07#2@98"Touch /Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app310578675#310578675#0(0"0(0#0#0"2526703552#302"    cd "/Users/tonyflorida/Documents/iSwim Converter"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/tonyflorida/Documents/iSwim Converter/build/Debug-iphonesimulator/iSwim Converter.app"0#
+
+CTouch "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app"
+s315709496.626170
+e315709496.629806
+r1
+xTouch
+x/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app
+lSLF07#2@112"Touch /Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app315709496#315709496#0(0"0(0#0#0"2543493776#330"    cd "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/EXTRA/Document/Published Apps/iSwim Converter 2.0/build/Debug-iphonesimulator/iSwim Converter.app"0#
 

@@ -20,7 +20,7 @@
 	minute = [[NSArray alloc] initWithObjects:@"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10", @"11", @"12", @"13", @"14", @"15", @"16", @"17", @"18", @"19", @"20", @"21", @"22", @"23", @"24", @"25", @"26", @"27", @"28", @"29", @"30", @"31", @"32", @"33", @"34", @"35", @"36", @"37", @"38", @"39", @"40", @"41", @"42", @"43", @"44", @"45", @"46", @"47", @"48", @"49", @"50", @"51", @"52", @"53", @"54", @"55", @"56", @"57", @"58", @"59", nil ];
 	second = [[NSArray alloc] initWithObjects:@"00", @"01", @"02", @"03", @"04", @"05", @"06", @"07", @"08", @"09", @"10", @"11", @"12", @"13", @"14", @"15", @"16", @"17", @"18", @"19", @"20", @"21", @"22", @"23", @"24", @"25", @"26", @"27", @"28", @"29", @"30", @"31", @"32", @"33", @"34", @"35", @"36", @"37", @"38", @"39", @"40", @"41", @"42", @"43", @"44", @"45", @"46", @"47", @"48", @"49", @"50", @"51", @"52", @"53", @"54", @"55", @"56", @"57", @"58", @"59", nil];
 	hundred = [[NSArray alloc] initWithObjects:@"00", @"01", @"02", @"03", @"04", @"05", @"06", @"07", @"08", @"09", @"10", @"11", @"12", @"13", @"14", @"15", @"16", @"17", @"18", @"19", @"20", @"21", @"22", @"23", @"24", @"25", @"26", @"27", @"28", @"29", @"30", @"31", @"32", @"33", @"34", @"35", @"36", @"37", @"38", @"39", @"40", @"41", @"42", @"43", @"44", @"45", @"46", @"47", @"48", @"49", @"50", @"51", @"52", @"53", @"54", @"55", @"56", @"57", @"58", @"59", @"60", @"61", @"62", @"63", @"64", @"65", @"66", @"67", @"68", @"69", @"70", @"71", @"72", @"73", @"74", @"75", @"76", @"77", @"78", @"79", @"80", @"81", @"82", @"83", @"84", @"85", @"86", @"87", @"88", @"89", @"90", @"91", @"92", @"93", @"94", @"95", @"96", @"97", @"98", @"99", nil];
-	stroke = [[NSArray alloc ] initWithObjects:@"50 Freestyle", @"100 Freestyle", @"200 Freestyle", @"400/500 Freestyle", @"800/1000 Freestyle", @"1500/1650 Freestyle", @"100 Butterfly", @"200 Butterfly", @"100 Backstroke", @"200 Backstroke", @"100 Breaststroke", @"200 Breaststroke", @"200 Individual Medley", @"400 Individual Medley", @"200 Freestyle Relay", @"400 Freestyle Relay", @"800 Freestye Relay", @"200 Medley Relay", @"400 Medley Relay", nil ];
+	stroke = [[NSArray alloc ] initWithObjects:@"50 Freestyle", @"100 Freestyle", @"200 Freestyle", @"400/500 Freestyle", @"800/1000 Freestyle", @"1500/1650 Freestyle", @"100 Butterfly", @"200 Butterfly", @"100 Backstroke", @"200 Backstroke", @"100 Breaststroke", @"200 Breaststroke", @"200 IM", @"400 IM", @"200 Freestyle Relay", @"400 Freestyle Relay", @"800 Freestye Relay", @"200 Medley Relay", @"400 Medley Relay", nil ];
 }
 
 //IDK
@@ -1706,85 +1706,85 @@
 				
 				//50 free
 				if ([inputTime selectedRowInComponent:3] == 0 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC50FreeF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC50FreeF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//100 free
 				if ([inputTime selectedRowInComponent:3] == 1 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC100FreeF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC100FreeF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}				
 				
 				//200 free
 				if ([inputTime selectedRowInComponent:3] == 2 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC200FreeF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC200FreeF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//400 free
 				if ([inputTime selectedRowInComponent:3] == 3 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC400FreeF * yards400ToMeters500) );
+					outputTimeInSeconds = ( timeInSeconds * (LC400FreeF / yards400ToMeters500) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}		
 				
 				//800 free
 				if ([inputTime selectedRowInComponent:3] == 4 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC800FreeF * yards400ToMeters500) );
+					outputTimeInSeconds = ( timeInSeconds * (LC800FreeF / yards400ToMeters500) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//1500 free
 				if ([inputTime selectedRowInComponent:3] == 5 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC1500FreeF * meters1500ToYards1650) );
+					outputTimeInSeconds = ( timeInSeconds * (LC1500FreeF / meters1500ToYards1650) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//100 fly
 				if ([inputTime selectedRowInComponent:3] == 6 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC100FlyF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC100FlyF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}				
 				
 				//200 fly
 				if ([inputTime selectedRowInComponent:3] == 7 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC200FlyF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC200FlyF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//100 back
 				if ([inputTime selectedRowInComponent:3] == 8 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC100BackF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC100BackF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}					
 				
 				//200 back
 				if ([inputTime selectedRowInComponent:3] == 9 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC200BackF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC200BackF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//100 breast
 				if ([inputTime selectedRowInComponent:3] == 10 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC100BreastF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC100BreastF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}				
 				
 				//200 breast
 				if ([inputTime selectedRowInComponent:3] == 11 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC200BreastF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC200BreastF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}
 				
 				//200 IM
 				if ([inputTime selectedRowInComponent:3] == 12 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC200IMF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC200IMF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}					
 				
 				//400 IM
 				if ([inputTime selectedRowInComponent:3] == 13 ) {
-					outputTimeInSeconds = ( timeInSeconds / (LC400IMF * allStrokes) );
+					outputTimeInSeconds = ( timeInSeconds * (LC400IMF / allStrokes) );
 					NSLog(@"Output time: %f", outputTimeInSeconds);
 				}	
 				

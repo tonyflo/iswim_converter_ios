@@ -29,9 +29,10 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {5276, 35321}}";
-			sepNavSelRange = "{3494, 0}";
-			sepNavVisRange = "{6314, 439}";
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{5239, 1155}\";\n            s = 0;\n        },\n                {\n            r = \"{6453, 4356}\";\n            s = 0;\n        },\n                {\n            r = \"{10868, 4364}\";\n            s = 0;\n        },\n                {\n            r = \"{15386, 4392}\";\n            s = 0;\n        },\n                {\n            r = \"{19837, 1154}\";\n            s = 0;\n        },\n                {\n            r = \"{21050, 4060}\";\n            s = 0;\n        },\n                {\n            r = \"{25238, 3775}\";\n            s = 0;\n        },\n                {\n            r = \"{29072, 4055}\";\n            s = 0;\n        },\n                {\n            r = \"{33186, 1153}\";\n            s = 0;\n        },\n                {\n            r = \"{34547, 1154}\";\n            s = 0;\n        },\n                {\n            r = \"{35760, 4359}\";\n            s = 0;\n        },\n                {\n            r = \"{40178, 3964}\";\n            s = 0;\n        },\n                {\n            r = \"{44296, 4395}\";\n            s = 0;\n        },\n                {\n            r = \"{48750, 1154}\";\n            s = 0;\n        },\n                {\n            r = \"{49963, 4053}\";\n            s = 0;\n        },\n                {\n            r = \"{54147, 3775}\";\n            s = 0;\n        },\n                {\n            r = \"{62117, 1153}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 65703}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {5276, 5382}}";
+			sepNavSelRange = "{10756, 0}";
+			sepNavVisRange = "{6277, 1283}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -52,7 +53,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					1233,
 					20,
 					48,
 					43,
@@ -74,10 +75,10 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					301,
+					1193,
 					60,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 				);
@@ -91,19 +92,30 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 310578130;
-			PBXWorkspaceStateSaveDate = 310578130;
+			PBXPerProjectTemplateStateSaveDate = 315671643;
+			PBXWorkspaceStateSaveDate = 315671643;
 		};
 		perUserProjectItems = {
-			CFA116D212830E4700557046 /* PBXTextBookmark */ = CFA116D212830E4700557046 /* PBXTextBookmark */;
-			CFA116D312830E4700557046 /* PBXTextBookmark */ = CFA116D312830E4700557046 /* PBXTextBookmark */;
-			CFA116D412830E4700557046 /* PBXTextBookmark */ = CFA116D412830E4700557046 /* PBXTextBookmark */;
-			CFA116D512830E4700557046 /* PBXTextBookmark */ = CFA116D512830E4700557046 /* PBXTextBookmark */;
-			CFA116E412830E9A00557046 /* PBXTextBookmark */ = CFA116E412830E9A00557046 /* PBXTextBookmark */;
+			CF86A48412B4C9E000E47F52 = CF86A48412B4C9E000E47F52 /* PBXTextBookmark */;
+			CFA116D212830E4700557046 = CFA116D212830E4700557046 /* PBXTextBookmark */;
+			CFA116D312830E4700557046 = CFA116D312830E4700557046 /* PBXTextBookmark */;
+			CFA116D412830E4700557046 = CFA116D412830E4700557046 /* PBXTextBookmark */;
+			CFA310A812B6C5110079E70C = CFA310A812B6C5110079E70C /* PBXTextBookmark */;
+			CFDA178012D15B5D0079FDCC /* PBXTextBookmark */ = CFDA178012D15B5D0079FDCC /* PBXTextBookmark */;
 		};
 		sourceControlManager = CFA1169812830BF000557046 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	CF86A48412B4C9E000E47F52 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
+		name = "iSwim_ConverterViewController.m: 61";
+		rLen = 0;
+		rLoc = 3464;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 58192;
 	};
 	CFA1168812830BD200557046 /* iSwim Converter */ = {
 		isa = PBXExecutable;
@@ -179,24 +191,24 @@
 		vrLen = 408;
 		vrLoc = 0;
 	};
-	CFA116D512830E4700557046 /* PBXTextBookmark */ = {
+	CFA310A812B6C5110079E70C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
-		name = "iSwim_ConverterViewController.m: 6";
+		name = "iSwim_ConverterViewController.m: 952";
 		rLen = 0;
-		rLoc = 129;
+		rLoc = 33127;
 		rType = 0;
-		vrLen = 547;
-		vrLoc = 0;
+		vrLen = 10053;
+		vrLoc = 54094;
 	};
-	CFA116E412830E9A00557046 /* PBXTextBookmark */ = {
+	CFDA178012D15B5D0079FDCC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* iSwim_ConverterViewController.m */;
-		name = "iSwim_ConverterViewController.m: 61";
+		name = "iSwim_ConverterViewController.m: 1820";
 		rLen = 0;
-		rLoc = 3494;
+		rLoc = 62058;
 		rType = 0;
-		vrLen = 439;
-		vrLoc = 6314;
+		vrLen = 14656;
+		vrLoc = 44206;
 	};
 }

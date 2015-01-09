@@ -260,6 +260,7 @@
 				GCC_PREFIX_HEADER = iSwim_Converter_Prefix.pch;
 				INFOPLIST_FILE = "iSwim_Converter-Info.plist";
 				PRODUCT_NAME = "iSwim Converter";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "23D779B2-3562-4051-AEA0-FFCB3676BC41";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
